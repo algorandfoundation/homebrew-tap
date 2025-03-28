@@ -1,9 +1,9 @@
 cask "algokit" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.6.1"
-  sha256 arm:   "da531a3c2a7d7fddc94f289ab61590b7e0232e295e68446a74050883afdad538",
-         intel: "6c39282433337298f5b2cbeac5391881ad2e5efb4249a00beac4dce0cc60e845"
+  version "2.6.2"
+  sha256 arm:   "87df3ee5b1ae1cbff56f44bc6691ee62e05db7d2a9cc4d3e39ef3c8c62a7b029",
+         intel: "98225b62ab940559fc2412b7dd338269b5d9a966bd8a559700f7fa632372990e"
 
   url "https://github.com/algorandfoundation/algokit-cli/releases/download/v#{version}/algokit-#{version}-macos_#{arch}-brew.tar.gz"
   name "algokit"
